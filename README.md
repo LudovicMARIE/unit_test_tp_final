@@ -203,8 +203,6 @@ Le site semble ne pas supporter la charge
 Il m'est difficile de faire une analyse de performances avec le graph suivant :
 ![Image Performance](tests/img/testPerfomances.png)
 
-#### Propositions d'améliorations
-
 
 
 ## Comment exécuter les tests
@@ -231,5 +229,5 @@ Cependant, je n'ai pas réussi à faire fonctionner les tests Cypress ainsi que 
 
 
 
-Réalisé par : Ludovic MARIE
+Réalisé par : Ludovic MARIE  
 Date : 07/04/2025
