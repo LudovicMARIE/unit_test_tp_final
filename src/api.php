@@ -1,4 +1,6 @@
 <?php
+use Ludov\UnitTestTpFinal\UserManager;
+
 require_once 'UserManager.php';
 header("Content-Type: application/json");
 

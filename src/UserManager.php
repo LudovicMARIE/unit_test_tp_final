@@ -1,11 +1,17 @@
 <?php
+namespace Ludov\UnitTestTpFinal;
+
+use PDO;
+use InvalidArgumentException;
+use Exception;
+
 class UserManager {
     private PDO $db;
 
     public function __construct() {
         $dsn = "mysql:host=localhost;dbname=user_management;charset=utf8";
         $username = "root"; // Modifier si besoin
-        $password = "root"; // Modifier si besoin
+        $password = ""; // Modifier si besoin
         $this->db = new PDO($dsn, $username, $password, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC

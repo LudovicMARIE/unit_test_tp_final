@@ -1,0 +1,17 @@
+{
+    "name": "ludov/unit_test_tp_final",
+    "autoload": {
+        "psr-4": {
+            "Ludov\\UnitTestTpFinal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ludovic MARIE",
+            "email": "dsq@mail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
